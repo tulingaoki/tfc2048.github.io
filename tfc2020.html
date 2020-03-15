@@ -7,7 +7,7 @@
 		<link href = "style/tfc2020.css" rel = "stylesheet" type = "text/css"/>
 		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
 </script>
-		<audio id = "ayzm" src="music/ayzm.mp3" preload="auto" playcount="-1"></audio>
+		<audio id = "ayzm" src="music/ayzm.mp3" autoplay preload="auto" playcount="-1"></audio>
 		<audio id = "slgn" src="music/slgn.mp3" preload="auto" playcount="-1"></audio>
 		<audio id = "dw" src="music/dw.mp3" preload="auto" playcount="-1"></audio>
 		<script>
@@ -24,13 +24,7 @@
 			}*/
 			
 			/*while (true){*/
-				document.addEventListener('touchstart', function () {
-				    function audioAutoPlay() {
-				        
-				            ayzm.play();
-				    }
-				    audioAutoPlay();
-				});
+
 				ayzm.addEventListener('ended',function(){
 					slgn.play();
 				}, false);
@@ -91,7 +85,7 @@
 		<section style = "height: 50%;">
 			<img src = "images/tfc1.jpg"/>
 		</section>
-		<section style = "height: 70%">
+		<section style = "height: 55%">
 			<img src = "images/tfc2.jpg"/>
 		</section>
 
