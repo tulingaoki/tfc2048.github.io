@@ -24,7 +24,13 @@
 			}*/
 			
 			/*while (true){*/
-				ayzm.play();
+				document.addEventListener('touchstart', function () {
+				    function audioAutoPlay() {
+				        
+				            ayzm.play();
+				    }
+				    audioAutoPlay();
+				});
 				ayzm.addEventListener('ended',function(){
 					slgn.play();
 				}, false);
