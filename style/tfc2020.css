@@ -291,8 +291,8 @@ ul,li {
 
 
 	100% {
-		-webkit-transform: translateY(-1200px) rotate(600deg);
-		transform: translateY(-1200px) rotate(600deg);
+		-webkit-transform: translateY(-3000px) rotate(600deg);
+		transform: translateY(-3000px) rotate(600deg);
 	}
 
 }
@@ -307,6 +307,6 @@ ul,li {
 
 
 	100% {
-		-webkit-transform: translateY(-1200px) rotate(600deg);
-		transform: translateY(-1200px) rotate(600deg)
+		-webkit-transform: translateY(-3000px) rotate(600deg);
+		transform: translateY(-3000px) rotate(600deg)
 	}
